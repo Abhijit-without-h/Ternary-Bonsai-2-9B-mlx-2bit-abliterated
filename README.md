@@ -76,14 +76,6 @@ The residual stream is in the Hadamard-rotated basis used by this pack. A normal
 
 Cosine between the two means: layer 11 = 0.880, 19 = 0.739, 23 = 0.734, 27 = 0.748.
 
-## Limits
-
-- Apple Silicon, MLX, mlx-vlm 0.7.8 or newer (`model_type: prism_hadamard_qwen35`).
-- Vision tower and MTP head are not steered.
-- Thinking mode was not measured under steering.
-- Re-measure if you change packs. These vectors match this 9B MLX 2-bit release only.
-- Context on an 8 GB machine is memory-bound, not the nominal 262K.
-
 ## License
 
 Apache 2.0, following the base model.
